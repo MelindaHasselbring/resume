@@ -327,16 +327,13 @@ footer h4 {
     display: inline-block;
 }
 #email_callToAction {
+    font-style: italic;
     display: inline-block;
     color: #a9a9a9;
     text-decoration: none;
 }
 
-#email_callToAction:hover {
-    text-decoration: none;
-    color: greenyellow;
-    
-}
+
  .edu {
     border-top: solid 3px #E2EBF5;
 }
@@ -386,4 +383,12 @@ td p {
 }
 .year {
     padding-left: 0;
+}
+
+i {
+/*    color: darkgray;*/
+    color: #646f5d;
+}
+#detail_emp ul li span {
+    float: right;
 }
