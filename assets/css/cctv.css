@@ -174,12 +174,14 @@ img  {
     
 }
 
-#budget .budgetTable td, #budget .budgetTable th 
+#budget .budgetTable td, #budget .budgetTable th, 
 #ws .wsTable td, #ws .wsTable th {
     border: 1px solid #ddd;
     padding: 8px;
 }
 #budget .budgetTable tr:nth-child(even){background-color: #f2f2f2;}
+
+
 #ws .wsTable tr:nth-child(even){background-color: #f2f2f2;}
 
 
@@ -189,7 +191,7 @@ img  {
 
 
 
-#budget .budgetTable th
+#budget .budgetTable th,
 #ws .wsTable th {
     padding-top: 12px;
     padding-bottom: 12px;
