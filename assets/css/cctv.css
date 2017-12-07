@@ -34,11 +34,10 @@ body {
 #container {
     width: 100%;
     margin: 0 auto;
-/*    background: url("../images/Reefs_CCTV.jpg");*/
     background-repeat: no-repeat;
     height: 100%;
     /*padding-bottom: 99999px;  
-    margin-bottom: -99999px;  */
+      margin-bottom: -99999px;  */
 } 
 
 .fixed-header, .fixed-footer{
@@ -48,10 +47,6 @@ body {
         padding: 10px 0;
         color: #fff;
     }
-#mainheader {
-    
-}
-
 
 header {
     width: 100%;
@@ -114,7 +109,7 @@ main{
     background: url("../images/Reefs_CCTV.jpg");
     height: 900px;
 }
-#rpf, #rr, #ws {
+#rpf, #rr, #ws, #budget{
     background: white;
     margin-top: 0;
     margin-left: 20%;
@@ -129,7 +124,7 @@ main{
 
 
 
-#rpf h2 , #rr h2, #ws h2{
+#rpf h2 , #rr h2, #ws h2, #budget h2{
     font-weight: normal;
     font-size: 1.3em;
     line-height: 1.2;
@@ -137,13 +132,13 @@ main{
     padding-bottom: 3%
 }
 
-#rpf #name, #rr #name, #ws #name{
+#rpf #name, #rr #name, #ws #name, #budget #name{
     display: inline-block;
     width: 66%;
     padding-bottom: 3%
 }
 
-#rpf #team, #rr #team, #ws #name  {
+#rpf #team, #rr #team, #ws #team, #budget #team  {
     display: inline-block;
     width: 33%;
     padding-bottom: 3%;
@@ -179,20 +174,22 @@ img  {
     
 }
 
-#ws {
-    
-}
-
-
+#budget .budgetTable td, #budget .budgetTable th 
 #ws .wsTable td, #ws .wsTable th {
     border: 1px solid #ddd;
     padding: 8px;
 }
-
+#budget .budgetTable tr:nth-child(even){background-color: #f2f2f2;}
 #ws .wsTable tr:nth-child(even){background-color: #f2f2f2;}
 
+
+
+#budget .budgetTable tr:hover {background-color: #ddd;}
 #ws .wsTable tr:hover {background-color: #ddd;}
 
+
+
+#budget .budgetTable th
 #ws .wsTable th {
     padding-top: 12px;
     padding-bottom: 12px;
