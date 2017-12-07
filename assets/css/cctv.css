@@ -10,8 +10,8 @@ font-family: 'Patua One', cursive;
 
 colors:
 red: #f05257
-blue: #2e63a4
-pale yellow: #ffe68c
+header - blue:  #2C8CCD;
+bottom botder - green:   #2eb190;
 purple: #4e385e
 base: #fffaee
 
@@ -40,15 +40,29 @@ body {
     /*padding-bottom: 99999px;  
     margin-bottom: -99999px;  */
 } 
+
+.fixed-header, .fixed-footer{
+        width: 100%;
+        position: fixed;        
+        background: #333;
+        padding: 10px 0;
+        color: #fff;
+    }
+#mainheader {
+    
+}
+
+
 header {
-    background-color: #2C8CCD;
+    width: 100%;
+    background:#2C8CCD;
     color: white;
-    padding: .5em;
+    padding: .5em 0;
     text-align: center;
     border-bottom: solid 3px #4e385e;
     font-family: 'Patua One', cursive;
-/*    background: url("https://media.giphy.com/media/hPBR0xcXbgYnK/giphy.gif");*/
-    
+/*    position: fixed; */
+   
 }
 header h1 {
     font-size: 2.25em;
@@ -100,7 +114,7 @@ main{
     background: url("../images/Reefs_CCTV.jpg");
     height: 900px;
 }
-#rpf, #rr{
+#rpf, #rr, #ws {
     background: white;
     margin-top: 0;
     margin-left: 20%;
@@ -115,7 +129,7 @@ main{
 
 
 
-#rpf h2 , #rr h2{
+#rpf h2 , #rr h2, #ws h2{
     font-weight: normal;
     font-size: 1.3em;
     line-height: 1.2;
@@ -123,13 +137,13 @@ main{
     padding-bottom: 3%
 }
 
-#rpf #name, #rr #name{
+#rpf #name, #rr #name, #ws #name{
     display: inline-block;
     width: 66%;
     padding-bottom: 3%
 }
 
-#rpf #team, #rr #team  {
+#rpf #team, #rr #team, #ws #name  {
     display: inline-block;
     width: 33%;
     padding-bottom: 3%;
@@ -165,6 +179,28 @@ img  {
     
 }
 
+#ws {
+    
+}
+
+
+#ws .wsTable td, #ws .wsTable th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#ws .wsTable tr:nth-child(even){background-color: #f2f2f2;}
+
+#ws .wsTable tr:hover {background-color: #ddd;}
+
+#ws .wsTable th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #2C8CCD;
+    color: white;
+    text-align: center;
+}
 
 
 h1 {
