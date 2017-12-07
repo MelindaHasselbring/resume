@@ -1,0 +1,463 @@
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+
+article, aside, footer, header, hgroup, main, nav, section {
+    display: block;
+}
+/*
+font-family: 'Nunito', sans-serif;
+font-family: 'Patua One', cursive;
+
+colors:
+red: #f05257
+blue: #2e63a4
+pale yellow: #ffe68c
+purple: #4e385e
+base: #fffaee
+
+
+
+sky-blue:  #2C8CCD;
+*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #2C8CCD;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.4;
+    background: linear-gradient(to bottom, #2C8CCD 0%, #2eb190 100%);
+    
+}
+#container {
+    width: 100%;
+    margin: 0 auto;
+/*    background: url("../images/Reefs_CCTV.jpg");*/
+    background-repeat: no-repeat;
+    height: 100%;
+    /*padding-bottom: 99999px;  
+    margin-bottom: -99999px;  */
+} 
+header {
+    background-color: #2C8CCD;
+    color: white;
+    padding: .5em;
+    text-align: center;
+    border-bottom: solid 3px #4e385e;
+    font-family: 'Patua One', cursive;
+/*    background: url("https://media.giphy.com/media/hPBR0xcXbgYnK/giphy.gif");*/
+    
+}
+header h1 {
+    font-size: 2.25em;
+    padding: 0 0 .25em;
+    font-family: 'Open Sans', sans-serif;
+    color: #243a6c;
+    
+/*
+        font-family: 'Concert One', Arial, sans-serif;
+    font-size: 2.5em;
+    color: #219dd1;
+    padding: 0 20px 10px;
+    background-color: #243a6c;
+    margin-bottom: 20px;
+    clear: left;
+    
+    
+    
+*/
+}
+header h1 a {
+    color: #4e385e;
+    text-decoration: none;
+}
+header h1 a:hover {
+    color: #ffe68c;
+}
+nav {
+    background-color: #243a6c;
+    text-align: center;
+}
+nav li {
+    list-style-type: none;
+    border-bottom: solid 1px #fffaee;
+}
+nav a {
+    
+     color: white;
+/*    color: #ffe68c;  */
+    text-decoration: none;
+    display: block;
+    padding: .25em;
+}
+nav a:hover {
+    background-color: #f05257;
+    color: #fffaee;
+}
+main{
+    background: url("../images/Reefs_CCTV.jpg");
+    height: 900px;
+}
+#rpf, #rr{
+    background: white;
+    margin-top: 0;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 5%;
+    padding-top: 3%;
+    color: black;
+    
+    
+}
+
+
+
+
+#rpf h2 , #rr h2{
+    font-weight: normal;
+    font-size: 1.3em;
+    line-height: 1.2;
+    text-align: center;
+    padding-bottom: 3%
+}
+
+#rpf #name, #rr #name{
+    display: inline-block;
+    width: 66%;
+    padding-bottom: 3%
+}
+
+#rpf #team, #rr #team  {
+    display: inline-block;
+    width: 33%;
+    padding-bottom: 3%;
+    text-align: right;
+    float:right;    
+}
+#rpf #solicit, #rpf #notice, #rpf #synop{
+    display: block;
+    width: 99%;
+}
+#article p#data {
+    padding-bottom: 3%;
+}
+/*
+img #notice {
+    max-width: 100%;
+    height: 500px;
+    padding-left: 10px;
+}
+*/
+
+#ans {
+    margin-left: 3em;
+}
+
+#rr p {
+    margin-left: 3em;
+}
+img  {
+    max-width: 90%;
+    height: 440px;
+    padding-left: 110px;
+    
+}
+
+
+
+h1 {
+    font-size: 1.5em;
+    color: #4e385e;
+    line-height: 1.1;
+    text-align: center;
+    padding: .5em 0;
+    margin-top: .5em;
+}
+h3 {
+    font-size: 1.1em;
+    font-weight: normal;
+    font-style: italic;
+    color: #4e385e;
+    text-align: center;
+}
+
+h1 + h3 {
+    margin-top: -.5em;
+}
+p {
+    font-size: 1em;
+    margin-bottom: .4em;
+}
+a{
+    color: #2e63a4;
+    font-weight: 700;
+}
+a:visited {
+    text-decoration: none;
+}
+a:hover {
+    color: #f05257;
+}
+
+#rpf #submitted {
+    width: 45%;
+    float: left;   
+}
+#submitted h4 {
+/*    padding-bottom: 1em;*/
+}
+
+
+#rpf #signed {
+    width: 45%;
+    float: right;
+}
+
+
+
+
+footer {
+    margin-top: 1.25em
+}
+footer h4 {
+    background-color: #f05257;
+    color: #fffaee;
+    padding: .25em
+}
+footer p{
+    text-align: center;
+    font-size: 75%;
+    color: white;
+}
+
+/* form styles */
+fieldset {
+    padding: 1em 5% 1em 1em;
+    margin: .75em 0;
+    border: solid 1px #4e385e;
+}
+legend {
+    padding: 0 .5em;
+    font-style: italic;
+    font-weight: 700;
+    color: #2e63a4;
+}
+form h3 {
+    text-align: left;
+    background-color: #ffe68c;
+    color: #2e63a4;
+    padding: 0 .5em;
+    margin-bottom: .5em;
+}
+label {
+    color: #2e63a4;
+    margin: .5em 0 .2em;
+    display: block;
+}
+.radioList, select {
+    margin: 0 0 1em .5em;
+}
+.radioList label {
+    display: inline-block;
+    margin: 0;
+}
+select {
+    font-family: 'Nunito', sans-serif;
+    color: #2e63a4;
+    font-size: 1em;
+}
+form ul {
+    list-style-type: none;
+}
+input {
+    padding: .25em;
+    margin-right: .5em;
+    width: 100%;
+}
+input[type="radio"], input[type="checkbox"], input[type="submit"], input[type="reset"] {
+    width: auto;
+}
+textarea {
+    font-family: 'Nunito', sans-serif;
+    color: #2e63a4;
+    font-size: 1em;
+    padding: .25em;
+    width: 98%;
+    min-height: 6em;
+    margin-left: .5em;
+}
+input.button {
+    background-color: #2e63a4;
+    color: #ffe68c;
+    font-weight: 700;
+    font-family: 'Nunito', sans-serif;
+    padding: .25em .5em;
+    border-radius: 8px;
+    border: none;
+    margin-right: 1em;
+}
+input.button:hover {
+    background-color: #f05257;
+}
+
+
+/* mid size screen */
+@media screen and (min-width: 500px) {
+    header {
+        border-bottom: none;
+    }
+    nav li {
+        width: 50%;
+        float: left;
+    }
+    #home nav li:last-child {
+        border-bottom: none;
+    }
+    nav li:nth-child(odd) {
+        border-right: solid 1px #fffaee;
+    }
+    nav li:nth-child(-n+2) {
+        border-top: solid 3px #4e385e;
+    }
+    nav ul:after {
+        clear: both;
+        content: "";
+        display: block;
+    }
+    #pitch, #shop {
+        float: left;
+        width: 48%;
+        margin-bottom: 1em;
+    }
+    #pitch {
+        margin-right: 2%;
+    }
+    #shop {
+        margin-left: 2%;
+    }
+    #specials {
+        clear: both;
+    }
+    #specials li {
+        width: 48%;
+    }
+    #specials li:nth-child(even){
+        background-color: transparent;
+        margin-left: 2%;
+        float:right;
+    }
+    #specials li:nth-child(odd) {
+        margin-right: 2%;
+        float:left;
+    }
+    #specials li:nth-child(2n+3) {
+        clear:both;
+    }
+    #specials li:last-child {
+        margin-bottom: 1.5em;
+    }
+    #specials h1 {
+        background-color: #ffe68c;
+    }
+    footer {
+        clear:both;
+    }
+    
+/* form styles */
+    fieldset:first-of-type {
+        padding-right: 0;
+    }
+    label {
+        margin-bottom: 0;
+    }
+    form li {
+        width: 45%;
+        float: left;
+        margin-right: 5%;
+    } 
+    .radioList:after {
+        clear: both;
+        content: "";
+        display: block;
+    }
+    form fieldset:last-child li {
+        width: auto;
+    }
+}
+
+@media screen and (min-width: 650px) {
+    form .radioList li {
+        width: 32%;
+        margin-right: 1.3%
+    }
+}
+/* large screen */
+
+@media screen and (min-width: 850px) {
+    nav li {
+        width: 16.6666667%;
+        border-bottom: none;
+        border-right: solid 1px #fffaee;
+    }
+    #home nav li {
+        width: 20%;
+    }
+    nav li:nth-child(-n+2) {
+        border-top: none;
+    }
+    nav li:last-child {
+        border-right: none;
+    }
+    #pitch, #shop, #specials {
+        width: 32%;
+        margin-bottom: 1em;
+    }
+    #pitch, #specials {
+        float: left;
+    }
+    #specials {
+        clear: none;
+    }
+    #specials li {
+        width: 100%;
+    }
+    #specials li:nth-child(even){
+        background-color: #fbedcc;
+    }
+    #specials li:last-child {
+        margin-bottom: 0;
+    }
+    #specials h1 {
+        background-color: transparent;
+    }
+    #shop {
+        float: right;
+    }
+    fieldset:nth-child(2){
+        padding-right: 0;
+    }
+    .formSection {
+        width: 45%;
+        margin-right: 5%;
+        float:left;
+    }
+    .formSection:nth-of-type(3) {
+        clear: both;
+    }
+    form .radioList li {
+        width: 50%;
+        margin-right: 0;
+    }
+    form fieldset:last-child li {
+        margin-right: 2%;
+    }
+
+}
+
+
+
+
+
+
